@@ -3,7 +3,6 @@ fn sumOfN(upperLimit: u64) -> u64 {
     for n in 1..=upperLimit {
         sum += n;
     }
-
     return sum;
 }
 
